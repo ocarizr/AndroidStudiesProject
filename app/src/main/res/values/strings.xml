@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Android Studies Project</string>
+    <string name="btnTest">Altera Texto</string>
+    <string name="btnToSecond">Para Segunda Tela</string>
+    <string name="btnBack">Voltar</string>
 </resources>
