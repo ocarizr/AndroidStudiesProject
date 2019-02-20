@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 switch ((String)txtTexto.getText())
                 {
                     case "Olá, pressione o botão.":
-                        txtTexto.setText("Obrigado, você tocou no botão!");
+                        txtTexto.setText(getResources().getString(R.string.txt2));
                         break;
                     case "Obrigado, você tocou no botão!":
-                        txtTexto.setText("Nossa! Gostou de pressionar o botão :)");
+                        txtTexto.setText(getResources().getString(R.string.txt3));
                         break;
                     case "Nossa! Gostou de pressionar o botão :)":
-                        txtTexto.setText("Olá, pressione o botão.");
+                        txtTexto.setText(getResources().getString(R.string.txt1));
                         break;
                 }
             }

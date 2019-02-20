@@ -15,4 +15,9 @@
     <string name="switchMessage">Mostrar mensagem</string>
     <string name="txtSSMessage1">Esperando a ação do Switch</string>
     <string name="txtSSMessage2">Switch funcionando com sucesso</string>
+
+    //Strings para alternancia de mensagem na primeira screen
+    <string name="txt1">Olá, pressione o botão.</string>
+    <string name="txt2">Obrigado, você tocou no botão!</string>
+    <string name="txt3">Nossa! Gostou de pressionar o botão :)</string>
 </resources>
