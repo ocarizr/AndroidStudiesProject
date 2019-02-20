@@ -32,12 +32,12 @@ public class FormActivity extends AppCompatActivity {
         btnAddData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!editTxtJob.getText().toString().equals(getResources().getString(R.string.editTxtJob))
-                        && !editTxtName.getText().toString().equals(getResources().getString(R.string.editTxtName))) {
+                if (editTxtJob.getText().toString().equals(getResources().getString(R.string.editTxtJob))
+                        && editTxtName.getText().toString().equals(getResources().getString(R.string.editTxtName))) {
                     txtMessage.setText(getResources().getString(R.string.txtUnableMessage));
                 } else
                 {
-                    String msg = "Seu nome é " + editTxtName.getText().toString() + "e sua profissão é " + editTxtJob.getText().toString() + ".";
+                    String msg = "Seu nome é " + editTxtName.getText().toString() + " e sua profissão é " + editTxtJob.getText().toString() + ".";
                     txtMessage.setText(msg);
                 }
             }
