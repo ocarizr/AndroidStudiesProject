@@ -3,4 +3,16 @@
     <string name="btnTest">Altera Texto</string>
     <string name="btnToSecond">Para Segunda Tela</string>
     <string name="btnBack">Voltar</string>
+
+    // Strings para tela de formulário
+    <string name="btnFormEx">Para Tela de Formulários</string>
+    <string name="editTxtName">Nome</string>
+    <string name="editTxtJob">Profissão</string>
+    <string name="btnAddPersonalInfo">Adicionar dados</string>
+    <string name="txtUnableMessage">Complete os campos antes de receber a mensagem</string>
+
+    // Strings para segunda tela
+    <string name="switchMessage">Mostrar mensagem</string>
+    <string name="txtSSMessage1">Esperando a ação do Switch</string>
+    <string name="txtSSMessage2">Switch funcionando com sucesso</string>
 </resources>

@@ -14,9 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final TextView txtTexto = (TextView) findViewById(R.id.txtTexto);
-        final Button btnTest = (Button) findViewById(R.id.btnTest);
-        final Button btnToSecond = (Button) findViewById(R.id.btnToSecond);
+        final TextView txtTexto = findViewById(R.id.txtTexto);
+        final Button btnTest = findViewById(R.id.btnTest);
+        final Button btnToSecond = findViewById(R.id.btnToSecond);
+        final Button btnToForm = findViewById(R.id.btnToForm);
 
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondScreenActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnToForm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FormActivity.class);
                 startActivity(intent);
             }
         });
