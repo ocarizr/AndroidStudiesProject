@@ -27,7 +27,7 @@ public class SecondScreenActivity extends AppCompatActivity {
             }
         });
 
-        //switchMsg function onChackedChange
+        //switchMsg function onCheckedChange
         switchMsg.isChecked();
         switchMsg.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
