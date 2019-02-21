@@ -20,4 +20,8 @@
     <string name="txt1">Olá, pressione o botão.</string>
     <string name="txt2">Obrigado, você tocou no botão!</string>
     <string name="txt3">Nossa! Gostou de pressionar o botão :)</string>
+
+    //String para Image Toast
+    <string name="btnToImageScreen">Para Tela com Imagem</string>
+    <string name="txtToastTest">Você tocou na imagem!</string>
 </resources>

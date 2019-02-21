@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         final Button btnTest = findViewById(R.id.btnTest);
         final Button btnToSecond = findViewById(R.id.btnToSecond);
         final Button btnToForm = findViewById(R.id.btnToForm);
+        final Button btnToImage = findViewById(R.id.btnToImage);
 
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, FormActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnToImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ImageActivity.class);
                 startActivity(intent);
             }
         });
