@@ -24,4 +24,5 @@
     //String para Image Toast
     <string name="btnToImageScreen">Para Tela com Imagem</string>
     <string name="txtToastTest">Você tocou na imagem!</string>
+    <string name="btnToGallery">Para Galeria</string>
 </resources>

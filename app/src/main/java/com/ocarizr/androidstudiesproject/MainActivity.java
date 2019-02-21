@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         final Button btnToSecond = findViewById(R.id.btnToSecond);
         final Button btnToForm = findViewById(R.id.btnToForm);
         final Button btnToImage = findViewById(R.id.btnToImage);
+        final Button btnToGallery = findViewById(R.id.btnToGallery);
 
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +59,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ImageActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnToGallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, GaleriaActivity.class);
                 startActivity(intent);
             }
         });
