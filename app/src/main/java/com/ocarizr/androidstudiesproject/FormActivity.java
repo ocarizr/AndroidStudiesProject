@@ -33,7 +33,7 @@ public class FormActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (editTxtJob.getText().toString().equals(getResources().getString(R.string.editTxtJob))
-                        && editTxtName.getText().toString().equals(getResources().getString(R.string.editTxtName))) {
+                        || editTxtName.getText().toString().equals(getResources().getString(R.string.editTxtName))) {
                     txtMessage.setText(getResources().getString(R.string.txtUnableMessage));
                 } else
                 {
