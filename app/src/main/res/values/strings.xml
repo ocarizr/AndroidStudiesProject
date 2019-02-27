@@ -25,4 +25,16 @@
     <string name="btnToImageScreen">Para Tela com Imagem</string>
     <string name="txtToastTest">Você tocou na imagem!</string>
     <string name="btnToGallery">Para Galeria</string>
+
+    //String for LayoutTest Activity
+    <string name="btnToLayoutPage">Para janela de teste de Layouts.</string>
+    <string name="btnOne">Alterar texto ao lado</string>
+    <string name="txtOne1">Esperando botão</string>
+    <string name="txtOne2">Ok, funcionou</string>
+    <string name="swtOne">Switch!!</string>
+    <string name="txtSwtOne1">Inativo</string>
+    <string name="txtSwtOne2">Ativo!</string>
+    <string name="checkBoxOne">Marque aqui.</string>
+    <string name="txtCheckBoxOne1">Não marcado</string>
+    <string name="txtCheckBoxOne2">Marcado!</string>
 </resources>

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         final Button btnTest = findViewById(R.id.btnTest);
         final Button btnToSecond = findViewById(R.id.btnToSecond);
         final Button btnToForm = findViewById(R.id.btnToForm);
+        final ImageButton btnToLayout = findViewById(R.id.btnToLayout);
         final Button btnToImage = findViewById(R.id.btnToImage);
         final Button btnToGallery = findViewById(R.id.btnToGallery);
 
@@ -67,6 +69,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, GaleriaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnToLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LayoutStudy.class);
                 startActivity(intent);
             }
         });

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".LayoutStudy"></activity>
+        <activity android:name=".ImageActivity" />
         <activity android:name=".FormActivity" />
         <activity android:name=".SecondScreenActivity" />
         <activity android:name=".GaleriaActivity" />
